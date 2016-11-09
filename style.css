@@ -1,0 +1,77 @@
+/* Here goes your CSS */
+body {
+  background-color: rgb(235,235,235);
+  font-family: 'Open Sans', sans-serif;
+  color: rgb(150,150,150);
+  font-size: 15px;
+  line-height: 30px;
+}
+
+h1 {
+  color: rgb(221, 85,85);
+  font-size: 22px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+h2 {
+  color: rgb(125,125,125);
+  font-size: 18px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h3 {
+  color: rgb(125,125,125);
+  font-size: 16px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+a {
+  color: rgb(204,204,204);
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgb(221, 85,85);
+}
+
+.container {
+  margin: 30px auto;
+  width: 600px;
+}
+
+.card {
+  background-color: rgb(255,255,255);
+  border-radius: 5px
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+
+.img-circle {
+  border-radius: 50%;
+}
+
+.text-center{
+  text-align: center;
+}
+
+table {
+  text-align: justify;
+}
+
+#movies img {
+  width: 150px;
+  padding: 30px;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.list-inline {
+  padding-left: 0px;
+}
